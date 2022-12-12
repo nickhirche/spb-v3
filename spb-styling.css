@@ -5,9 +5,13 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+html {
+ background-color: red;
+}
+
 :root { font-size: 20px; }
-@media (max-width: 992px) :root { font-size: 19px; }
-@media (max-width: 568px) :root { font-size: 18px; }
+@media (max-width: 992px) { :root { font-size: 19px; } }
+@media (max-width: 568px) { :root { font-size: 18px; } }
 
 @media screen and (max-width: 767px) {
     .course-cards::after, .c-calculator_wrapper::after {
@@ -34,12 +38,9 @@
   scrollbar-width: none;  /* Firefox */
 }  
 
-.rte-small > *:first-child, .rte > *:first-child  { margin-top:0; }
-.rte-small > *:last-child, .rte > *:last-child  { margin-bottom:0; }
-  .price-quantity > *:nth-child(2), .price-duration-wrapper > *:nth-child(2) { margin-left: .5em;}
-  .price-quantity > *:nth-child(2)::before, .price-duration-wrapper > *:nth-child(2)::before { content: '/'; display: inline; padding-right: .5em;}
-  
-  .w-container:before, .w-container:after { display:none;}
+.w-richtext > *:first-child, .article-rte > *:first-child  { margin-top:0; }
+.w-richtext > *:last-child, .article-rte > *:last-child  { margin-bottom:0; }
+.w-container:before, .w-container:after { display:none;}
   
 .behandlung-teaserlink .image-sizecover  {
     transition: 0.6s cubic-bezier(0.65, 0, 0.35, 1);
