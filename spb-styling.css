@@ -70,8 +70,8 @@ html {
   scrollbar-width: none;  /* Firefox */
 }  
 
-.w-richtext > *:first-child, .article-rte > *:first-child  { margin-top:0; }
-.w-richtext > *:last-child, .article-rte > *:last-child  { margin-bottom:0; }
+.w-richtext > *:first-child, .article-rte > *:first-child, article > *:first-child { margin-top:0; }
+.w-richtext > *:last-child, .article-rte > *:last-child, article > *:last-child { margin-bottom:0; }
 .w-container:before, .w-container:after { display:none;}
   
 .behandlung-teaserlink .image-sizecover  {
