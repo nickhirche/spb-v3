@@ -23,6 +23,27 @@ html {
     }
 }
 
+.quote::before {
+    content: "»";
+    background: linear-gradient(146.12deg, #A753F1 11.67%, #7100CA 87.59%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-weight: 700;
+    font-style: normal;
+}
+.quote::after {
+    content: "«";
+    background: linear-gradient(146.12deg, #A753F1 11.67%, #7100CA 87.59%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    font-weight: 700;
+    font-style: normal;
+}
+
 .sticky-filter {
   	overflow-y: scroll; /* Add the ability to scroll */
 }
