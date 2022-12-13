@@ -44,6 +44,17 @@ html {
     font-style: normal;
 }
 
+.quote-panel::before {
+    content:"";
+    background: linear-gradient(180deg, #923F7C 0%, #5513AF 100%);
+    position: absolute;
+    height: 100%;
+    width: 2px;
+    top:0;
+    left:0;
+
+}
+
 .sticky-filter {
   	overflow-y: scroll; /* Add the ability to scroll */
 }
