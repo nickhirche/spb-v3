@@ -5,10 +5,6 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-html {
- background-color: yellow;
-}
-
 :root { font-size: 20px; }
 @media (max-width: 992px) { :root { font-size: 19px; } }
 @media (max-width: 568px) { :root { font-size: 18px; } }
@@ -55,6 +51,14 @@ html {
 
 }
 
+.unordered-list-item > div::before {
+    content: "";
+    height: 1rem;
+    width: 1rem;
+    background-color: #5513AF;
+
+}
+
 .sticky-filter {
   	overflow-y: scroll; /* Add the ability to scroll */
 }
@@ -73,7 +77,22 @@ html {
 .w-richtext > *:first-child, .article-rte > *:first-child, article > *:first-child { margin-top:0; }
 .w-richtext > *:last-child, .article-rte > *:last-child, article > *:last-child { margin-bottom:0; }
 .w-container:before, .w-container:after { display:none;}
-  
+
+
+.unordered-list-item > div::before {
+    content: '';
+    height: 1.2em;
+    width: 1.2em;
+    margin-left: .5em;
+    display: inline-block;
+    background-size: contain;
+    background-image: url('data:image/svg+xml;charset=UTF-8,%3Csvg%20viewBox%3D%220%200%2018%2018%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M9.29289%203.29289C9.68342%202.90237%2010.3166%202.90237%2010.7071%203.29289L15.7071%208.29289C16.0976%208.68342%2016.0976%209.31658%2015.7071%209.70711L10.7071%2014.7071C10.3166%2015.0976%209.68342%2015.0976%209.29289%2014.7071C8.90237%2014.3166%208.90237%2013.6834%209.29289%2013.2929L12.5858%2010H3C2.44772%2010%202%209.55228%202%209C2%208.44772%202.44772%208%203%208H12.5858L9.29289%204.70711C8.90237%204.31658%208.90237%203.68342%209.29289%203.29289Z%22%20fill%3D%22rgb(32%2C%20114%2C%20230)%22%2F%3E%3C%2Fsvg%3E');
+    -webkit-transition: -webkit-transform 400ms cubic-bezier(.77, 0, .175, 1);
+    transition: transform 400ms cubic-bezier(.77, 0, .175, 1), -webkit-transform 400ms cubic-bezier(.77, 0, .175, 1);
+}
+
+
+
 .behandlung-teaserlink .image-sizecover  {
     transition: 0.6s cubic-bezier(0.65, 0, 0.35, 1);
 }
