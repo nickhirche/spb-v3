@@ -103,6 +103,7 @@
 
 .success-story-item {
     width: calc(33% - (2rem / 3))
+    transition: 0.4s cubic-bezier(0.65, 0, 0.35, 1);
 }
 
 .success-story-teaser:hover .preview-image {
