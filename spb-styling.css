@@ -112,9 +112,15 @@
     transform: scale3d(1.1, 1.1, 1) ; 
 }
 
-.success-story-teaser:hover .content-wrapper {
-    background-color: #22202D;
+.success-story-teaser .teaser-image::before {
+    content:"";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(225deg, rgba(88, 13, 202, 0.2), rgba(255, 138, 59, 0.2));
 }
+
+background-image: linear-gradient(225deg, rgba(88, 13, 202, 0.2), rgba(255, 138, 59, 0.2));
 
 .success-story-teaser:hover .arrow-button {
     color: #EFE9FB;
