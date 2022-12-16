@@ -136,6 +136,17 @@
     transform: scale3d(1.1, 1.1, 1) ; 
 }
 
+.success-story-teaser .teaser-image {
+    width: calc((90vw / 3) - (2rem / 3));
+    height: calc(((90vw / 3) - (2rem / 3)) / 16 * 9);
+}
+@media screen and (max-width: 767px) {
+    .success-story-teaser .teaser-image{
+        width: calc((90vw / 2) - (2rem / 2));
+    }
+}
+
+
 .success-story-teaser .teaser-image::before {
     content:"";
     position: absolute;
