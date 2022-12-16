@@ -139,10 +139,21 @@
 .success-story-teaser .teaser-image {
     width: calc((90vw / 3) - (2rem / 3));
     height: calc(((90vw / 3) - (2rem / 3)) / 16 * 9);
+    max-width: calc((60rem - 2rem) / 3 );
+    max-height: calc(((60rem - 2rem) / 3) / 16 * 9 );
 }
 @media screen and (max-width: 767px) {
     .success-story-teaser .teaser-image{
         width: calc((90vw / 2) - (2rem / 2));
+        height: calc(((90vw / 2) - (2rem / 2)) / 16 * 9);
+        max-width: none;
+        max-height: none;
+    }
+}
+@media screen and (max-width: 479px) {
+    .success-story-teaser .teaser-image{
+        width: 90vw;
+        height: calc(90vw / 16 * 9);
     }
 }
 
