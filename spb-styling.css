@@ -64,10 +64,14 @@ ul {
     padding-left: 0;
 }
 
+ul li {
+    padding-left: 2rem;
+}
+
 ul li, ol li {
 margin-top: .3rem; 
-margin-left: 2rem;
 }
+
 
 .unordered-list-item::before, ul li::before {
     content: '';
@@ -93,6 +97,7 @@ ol {
 
 ol li {
     counter-increment: counter;
+    margin-left: 0;
   }
 
 ol li::before {
