@@ -45,8 +45,8 @@
 .article-rte a {
     color: currentColor;
     text-decoration: none;
-    -webkit-transition: 400ms cubic-bezier(0.65, 0, 0.35, 1);
-    transition: 0.4s cubic-bezier(0.65, 0, 0.35, 1); 
+    -webkit-transition: background-image 400ms cubic-bezier(0.65, 0, 0.35, 1);
+    transition: background-image 400ms cubic-bezier(0.65, 0, 0.35, 1);
 }
 
 .article-rte a::before {
@@ -60,27 +60,31 @@
 }
 
 ul {
-    list-style: none
-}
-
-.unordered-list-item > div::before {
-    content: "";
-    height: 1rem;
-    width: 1rem;
-    background-color: #5513AF;
-
+    list-style: none;
+    padding-left: 0;
 }
 
 .unordered-list-item::before, ul li::before {
     content: '';
     height: 1rem;
     width: 1rem;
-    margin-top: 0.1rem;
+    transform: translate(0px, 0.2rem);
     margin-right: 0.5rem;
     display: inline-block;
     background-size: contain;
+    background-repeat: none;
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 10C4 9.44772 4.44772 9 5 9H15C15.5523 9 16 9.44772 16 10C16 10.5523 15.5523 11 15 11H5C4.44772 11 4 10.5523 4 10Z' fill='url(%23paint0_linear_1179_7877)'/%3E%3Cdefs%3E%3ClinearGradient id='paint0_linear_1179_7877' x1='6.41379' y1='9.12' x2='6.69433' y2='11.6265' gradientUnits='userSpaceOnUse'%3E%3Cstop stop-color='%23A753F1'/%3E%3Cstop offset='1' stop-color='%237100CA'/%3E%3C/linearGradient%3E%3C/defs%3E%3C/svg%3E%0A");
 }
+
+ul li::before {
+    margin-top: 0.2rem;
+}
+
+ol {list-style: none; counter-reset: li}
+
+ol li::before {content: counter(li); color: red;
+    display: inline-block; width: 1em; margin-left: -1.5em;
+    margin-right: 0.5em; text-align: right; direction: rtl}
     
 .check-list-item::before {
     content: '';
@@ -119,7 +123,7 @@ blockquote {
     border-image: linear-gradient(180deg, #923F7C 0%, #5513AF 100%) 1;
 }
 
-.quote-panel::before, blockquote::before {
+.quote-panel::before {
     content:"";
     background: linear-gradient(180deg, #923F7C 0%, #5513AF 100%);
     position: absolute;
