@@ -79,7 +79,7 @@ ul {
 }
 
 ul li {
-margin-top: .5rem; 
+margin-top: .3rem; 
 }
 
 .unordered-list-item::before, ul li::before {
@@ -105,11 +105,11 @@ ol {
 
 ol li {
     counter-increment: counter;
-    margin-top: .5rem;
+    margin-top: .3rem;
   }
 
 ol li::before {
-    content: ". " counter(counter); 
+    content: ". "counter(counter); 
     color: #A753F1;
     display: inline-block; 
     width: 1em; 
@@ -121,6 +121,24 @@ ol li::before {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
+}
+
+li {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    grid-column-gap: 0.2rem;
+    grid-row-gap: 0.2rem;
 }
     
 .check-list-item::before {
