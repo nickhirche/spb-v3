@@ -251,7 +251,7 @@ blockquote {
 
 .author-meta .figcaption {
     padding-right: 1rem;
-    border-right: solid 1px rgba(192, 168, 240, .1);
+    border-right: solid 1px rgba(192, 168, 240, .2);
 }
 
 @media screen and (max-width: 479px) {
@@ -259,7 +259,7 @@ blockquote {
         padding-right:0;
         border-right: none;
         padding-bottom: 1rem;
-        border-bottom: solid 1px rgba(192, 168, 240, .1);
+        border-bottom: solid 1px rgba(192, 168, 240, .2);
     }
 }
 
