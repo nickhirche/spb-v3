@@ -68,7 +68,7 @@ ul {
     content: '';
     height: 1rem;
     width: 1rem;
-    transform: translate(0px, 0.2rem);
+    transform: translate(0px, 0.1rem);
     margin-right: 0.5rem;
     display: inline-block;
     background-size: contain;
@@ -77,14 +77,28 @@ ul {
 }
 
 ul li::before {
-    margin-top: 0.2rem;
+    transform: translate(0px, 0.2rem);
 }
 
-ol {list-style: none; counter-reset: li}
+ol {
+    list-style: none;
+    counter-reset: li; 
+}
 
-ol li::before {content: counter(li); color: red;
-    display: inline-block; width: 1em; margin-left: -1.5em;
-    margin-right: 0.5em; text-align: right; direction: rtl}
+ol li::before {
+    content: counter(li); 
+    color: red;
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1.5em;
+    margin-right: 0.5em; 
+    text-align: right; 
+    direction: rtl;
+    background: linear-gradient(146.12deg, #A753F1 11.67%, #7100CA 87.59%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
     
 .check-list-item::before {
     content: '';
