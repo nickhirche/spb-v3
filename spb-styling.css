@@ -66,6 +66,7 @@ ul {
 
 ul li, ol li {
 margin-top: .3rem; 
+margin-left: 2rem;
 }
 
 .unordered-list-item::before, ul li::before {
@@ -98,8 +99,8 @@ ol li::before {
     content: ". "counter(counter); 
     color: #A753F1;
     display: inline-block; 
-    width: 1em; 
-    margin-left: -1.5em;
+    width: 2rem; 
+    margin-left: -2.5em;
     margin-right: 0.5em; 
     text-align: right; 
     direction: rtl;
