@@ -19,6 +19,18 @@
     }
 }
 
+
+::-moz-selection { /* Code for Firefox */
+    color: red;
+    background: yellow;
+}
+  
+::selection {
+color: red;
+background: yellow;
+}
+
+
 /* Spacings */
 .top-small {
     margin-top: 2rem;
@@ -82,12 +94,16 @@ ul li::before {
 
 ol {
     list-style: none;
-    counter-reset: li; 
+    counter-reset: counter; 
 }
 
+ol li {
+    counter-increment: counter;
+  }
+
 ol li::before {
-    content: counter(li); 
-    color: red;
+    content: counter(counter) ". "; 
+    color: #A753F1;
     display: inline-block; 
     width: 1em; 
     margin-left: -1.5em;
