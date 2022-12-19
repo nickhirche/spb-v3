@@ -66,7 +66,7 @@ ul {
 
 ul li, ol li {
 margin-top: .3rem; 
-padding-left: 2rem;
+padding-left: 2rem; 
 }
 
 
@@ -91,6 +91,7 @@ ul li::before {
 ol {
     list-style: none;
     counter-reset: counter; 
+    padding-left: 0;
 }
 
 ol li {
@@ -100,9 +101,10 @@ ol li {
 ol li::before {
     content: "."counter(counter); 
     color: #A753F1;
-    display: absolute; 
-    left: 2rem;
+    position: absolute;
+    left: -0.75rem;
     top: 0;
+    width: 2rem;
     text-align: right; 
     direction: rtl;
     background: linear-gradient(146.12deg, #A753F1 11.67%, #7100CA 87.59%);
