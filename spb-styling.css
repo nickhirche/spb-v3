@@ -107,7 +107,7 @@ ol li::before {
     width: 2rem;
     text-align: right; 
     direction: rtl;
-    background: gradient(25deg, #9D418F 0%, #E67751 100%);
+    background: linear-gradient(7.12deg, #9D418F 0%, #E67751 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
