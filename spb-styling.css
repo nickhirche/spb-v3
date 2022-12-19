@@ -239,14 +239,14 @@ blockquote {
     transform: scale3d(1.1, 1.1, 1) ; 
 }
 
-.post-teaser .teaser-image::before {
+.post-teaser .teaser-image::before, .intro-image::before {
     content:"";
     position: absolute;
     top:-4%;
     left:-4%;
     height: 108%;
     width: 108%;
-    z-index: 100;
+    z-index: 50;
     background-image: linear-gradient(225deg, rgba(88, 13, 202, 0.2), rgba(255, 138, 59, 0.2));
 }
 
