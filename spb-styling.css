@@ -88,6 +88,7 @@ margin-top: .3rem;
 ul li::before {
     position: absolute;
     top: 0.2rem;
+    left: 0.3rem;
 }
 
 ol {
@@ -101,7 +102,7 @@ ol li {
   }
 
 ol li::before {
-    content: ". "counter(counter); 
+    content: "."counter(counter); 
     color: #A753F1;
     display: inline-block; 
     width: 2rem; 
