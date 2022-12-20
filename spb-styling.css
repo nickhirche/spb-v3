@@ -97,6 +97,16 @@ ul li::before {
     left: 0.3rem;
 }
 
+ul li.event-fact-group::before {
+    content: none;
+}
+
+ul li.event-fact-group {
+    margin-top:unset; 
+    padding-left: unset; 
+    }
+    
+
 ol {
     list-style: none;
     counter-reset: counter; 
@@ -275,6 +285,10 @@ blockquote {
 .author-meta .caption-image {
     width: 2.5rem;
     height: 2.5rem;
+}
+
+.day:after {
+    content:".";
 }
 
 .behandlung-teaserlink .image-sizecover  {
