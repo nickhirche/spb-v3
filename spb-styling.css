@@ -97,14 +97,14 @@ ul li::before {
     left: 0.3rem;
 }
 
-ul li.event-fact-group::before {
+ul.event-fact-group li::before {
     content: none;
 }
 
-ul li.event-fact-group {
-    margin-top:unset; 
-    padding-left: unset; 
-    }
+ul.event-fact-group li {
+    margin-top: none; 
+    padding-left: none; 
+}
     
 
 ol {
