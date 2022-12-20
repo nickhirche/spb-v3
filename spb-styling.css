@@ -172,6 +172,9 @@ li {
 blockquote {
     border-image: linear-gradient(180deg, #923F7C 0%, #5513AF 100%) 1;
 }
+.quote-panel {
+    border-left: unset;
+}
 
 .quote-panel::before {
     content:"";
