@@ -290,7 +290,7 @@ blockquote {
 .day:after {
     content:".";
 }
-.event-language::after {
+.event-language > div::after {
     content: ", ";
 }
 
