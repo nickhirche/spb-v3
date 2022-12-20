@@ -102,8 +102,8 @@ ul.event-fact-group li::before {
 }
 
 ul.event-fact-group li {
-    margin-top: none; 
-    padding-left: none; 
+    margin-top: unset; 
+    padding-left: unset; 
 }
     
 
@@ -289,6 +289,13 @@ blockquote {
 
 .day:after {
     content:".";
+}
+.event-language > div::after {
+    content: ", ";
+}
+
+.event-language > div:last-child:after {
+    content:none;
 }
 
 .behandlung-teaserlink .image-sizecover  {
