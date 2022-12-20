@@ -294,7 +294,7 @@ blockquote {
     content: ", ";
 }
 
-.event-language:last-child:after {
+.event-language:last-child > div::after {
     content:none;
 }
 
