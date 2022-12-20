@@ -290,11 +290,11 @@ blockquote {
 .day:after {
     content:".";
 }
-.event-language > div::after {
+.event-language::after {
     content: ", ";
 }
 
-.event-language > div:last-child:after {
+.event-language:last-child:after {
     content:none;
 }
 
