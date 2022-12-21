@@ -289,6 +289,10 @@ blockquote {
     border-right: solid 1px rgba(192, 168, 240, .2);
 }
 
+.facts-group > .fact-group:last-child {
+    border-bottom: unset;
+}
+
 @media screen and (max-width: 479px) {
     .author-meta .figcaption {
         padding-right:0;
