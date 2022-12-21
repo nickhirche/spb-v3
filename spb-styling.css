@@ -315,7 +315,8 @@ blockquote {
 }
 
 .podcast-meta .caption-meta:first-child:after {
-    content: ".";
+    content: "·";
+    margin-left: 0.3rem;
 }
 
 .behandlung-teaserlink .image-sizecover  {
