@@ -60,7 +60,7 @@ a {
     width: .8rem;
 }
 
-.button-group .button-tertiary.small:only-child {
+.button-group .button-tertiary:only-child {
     transform: translate3d(-.25rem, 0px, 0px) 
 }
 
