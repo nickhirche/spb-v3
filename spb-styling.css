@@ -60,6 +60,10 @@ a {
     width: .8rem;
 }
 
+.button-group .button-tertiary.small:only-child {
+    transform: translate3d(-.25rem, 0px, 0px) 
+}
+
 .article-rte a {
     color: currentColor;
     text-decoration: none;
