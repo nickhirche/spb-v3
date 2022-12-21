@@ -19,6 +19,10 @@
     }
 }
 
+a {
+    color: currentColor;
+}
+
 /* Spacings */
 .top-x-large {
     margin-top: 8rem;
@@ -49,6 +53,10 @@
 .button-tertiary:hover:before  {
     opacity: 1;
     transform: translate3d(.25rem, 0px, 0px) 
+}
+
+.button-tertiary.small::before {
+    content:none;
 }
 
 .article-rte a {
