@@ -291,7 +291,7 @@ blockquote {
     color: #EFE9FB;
 }
 
-.three-cols-teasergroup-list.limited:nth-child(4) {
+.three-cols-teasergroup-item.limited:nth-child(4) {
     display: none;
 } 
 
