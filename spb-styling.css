@@ -275,7 +275,7 @@ blockquote {
     z-index: 50;
     background-image: linear-gradient(225deg, rgba(88, 13, 202, 0.2), rgba(255, 138, 59, 0.2));
 }
-.post-teaser .teaser-image.video::before {
+.post-teaser .teaser-image.podcast::before {
     content: "";
     top: auto;
     left: auto;
