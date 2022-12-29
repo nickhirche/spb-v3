@@ -297,7 +297,7 @@ blockquote {
 
 .ebook-image {
     width: calc((90vw / 3) - (2rem / 3) - 3rem);
-    height: calc((90vw / 3 * 4) - (2rem / 3) - 3rem);
+    height: calc(((90vw / 3) - (2rem / 3) - 3rem) / 3 * 4);
 }
 @media screen and (max-width: 767px) {
     .ebook-image {
