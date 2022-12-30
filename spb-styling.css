@@ -56,9 +56,26 @@ a {
     content: none;
 }
 
+.button-tertiary.external::after {
+    content: '';
+    height: .9rem;
+    width: .9rem;
+    margin-left: .4rem;
+    display: inline-block;
+    opacity: .8;
+    background-size: contain;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 18 18' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4.61092 3.40381C4.05863 3.40381 3.61092 3.85152 3.61092 4.40381C3.61092 4.95609 4.05863 5.40381 4.61092 5.40381L10.682 5.40381L3.1967 12.8891C2.80618 13.2796 2.80618 13.9128 3.1967 14.3033C3.58723 14.6938 4.22039 14.6938 4.61092 14.3033L12.0962 6.81803V12.8891C12.0962 13.4414 12.5439 13.8891 13.0962 13.8891C13.6485 13.8891 14.0962 13.4414 14.0962 12.8891V4.40381C14.0962 3.85152 13.6485 3.40381 13.0962 3.40381L4.61092 3.40381Z' fill='white'/%3E%3C/svg%3E%0A");    
+    transition: 0.4s cubic-bezier(0.65, 0, 0.35, 1); 
+}
+
 .button-tertiary:hover:before  {
     opacity: 1;
     transform: translate3d(.25rem, 0px, 0px) 
+}
+
+.button-tertiary.external:hover:before  {
+    opacity: 1;
+    transform: translate3d(.1rem, -.1rem, 0px) 
 }
 
 .button-tertiary.small::before {
