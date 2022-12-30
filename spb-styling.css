@@ -82,6 +82,10 @@ a {
     height: .8rem;
     width: .8rem;
 }
+.button-tertiary.small::after {
+    height: .8rem;
+    width: .8rem;
+}
 
 .button-group .button-tertiary.small:only-child {
     transform: translate3d(-.7rem, 0px, 0px) 
@@ -289,7 +293,8 @@ blockquote {
 }
 
 .post-teaser:hover .button-tertiary.small.external {
-    transform: scale3d(1.05, 1.05, 1) ; 
+    color: white ; 
+    opacity: 1;
 }
 
 .post-teaser .teaser-image::before, .intro-image::before {
