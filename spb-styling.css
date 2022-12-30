@@ -73,7 +73,7 @@ a {
     transform: translate3d(.25rem, 0px, 0px) 
 }
 
-.button-tertiary.external:hover:before  {
+.button-tertiary.external:hover:after  {
     opacity: 1;
     transform: translate3d(.1rem, -.1rem, 0px) 
 }
@@ -295,6 +295,10 @@ blockquote {
 .post-teaser:hover .button-tertiary.small.external {
     color: white ; 
     opacity: 1;
+}
+
+.post-teaser:hover .button-tertiary.small.external::after {
+    transform: translate3d(.1rem, -.1rem, 0px) 
 }
 
 .post-teaser .teaser-image::before, .intro-image::before {
