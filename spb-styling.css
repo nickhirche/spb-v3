@@ -390,6 +390,12 @@ blockquote {
 
 /* MASTERMINDS */
 
+@media screen and (max-width: 393px) {
+    .four-col-mastermind-list {
+        max-width: 12rem;
+    }
+}
+
 .four-col-mastermind-item {
     width: calc((100% / 4) - (3rem / 4));
 }
@@ -409,6 +415,7 @@ blockquote {
 @media screen and (max-width: 393px) {
     .four-col-mastermind-item {
         width: 100%;
+        max-width: 12rem;
     }
 }
 
