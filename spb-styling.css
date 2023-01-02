@@ -19,6 +19,10 @@
     }
 }
 
+body {
+    font-feature-settings: 'ss04' on, 'salt' on, 'ss01' on;
+}
+
 a {
     color: currentColor;
 }
@@ -91,7 +95,7 @@ a {
     transform: translate3d(-.7rem, 0px, 0px) 
 }
 
-.button-accordion.w--open .icon-small .close {
+.button-mastermind.w--open .icon-small .close {
     opacity: 0;
 }
 
@@ -270,6 +274,9 @@ blockquote {
     }
 }
 
+
+/* POSTTEASER */
+
 .post-teaser .teaser-image {
     width: calc((90vw / 3) - (2rem / 3));
     height: calc(((90vw / 3) - (2rem / 3)) / 16 * 9);
@@ -329,6 +336,10 @@ blockquote {
 
 .post-teaser:hover .icon-button {
     color: #EFE9FB;
+}
+
+.post-teaser:hover .company-logo {
+    opacity: 100%;
 }
 
 
@@ -419,16 +430,12 @@ blockquote {
     padding-bottom: 12rem;
 }
 
-@media screen and (max-width: 991px) {
-    .four-cols-mastermind-list {
-        padding-bottom: 8rem;
-    }
+@media screen and (max-width: 991px) 
+    { .four-cols-mastermind-list { padding-bottom: 8rem; } 
 }
 
 @media screen and (max-width: 767px) {
-    .four-cols-mastermind-list {
-        padding-bottom: 2rem;
-    }
+    .four-cols-mastermind-list { padding-bottom: 4rem; }
 }
 
 .four-col-mastermind-item:nth-child(4n+1) {
@@ -455,7 +462,7 @@ blockquote {
 @media screen and (max-width: 767px) {
     .four-col-mastermind-item:nth-child(3n+1) { transform:none }
     .four-col-mastermind-item:nth-child(3n+3) { transform:none }
-    .four-col-mastermind-item:nth-child(2n+1) { transform: translate3d(0px, 2rem, 0px)  }
+    .four-col-mastermind-item:nth-child(2n+1) { transform: translate3d(0px, 4rem, 0px)  }
 }
 
 
