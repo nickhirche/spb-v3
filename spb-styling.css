@@ -391,8 +391,8 @@ blockquote {
 /* MASTERMINDS */
 
 @media screen and (max-width: 393px) {
-    .four-col-mastermind-list {
-        max-width: 12rem;
+    .four-cols-mastermind-list {
+        max-width: 14rem;
     }
 }
 
@@ -415,7 +415,7 @@ blockquote {
 @media screen and (max-width: 393px) {
     .four-col-mastermind-item {
         width: 100%;
-        max-width: 12rem;
+        max-width: 14rem;
     }
 }
 
@@ -448,6 +448,8 @@ blockquote {
     .four-col-mastermind-item .mastermind-wrapper {
         width: 90vw;
         height: calc(90vw / 3 * 4);
+        max-width: 14rem;
+        max-height: calc(14rem / 3 * 4);
     }
 }
 
