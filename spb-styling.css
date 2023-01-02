@@ -394,7 +394,7 @@ blockquote {
     width: calc((100% / 4) - (3rem / 4));
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1099px) {
     .four-col-mastermind-item {
         width: calc((100% / 3) - (2rem / 3));
     }
@@ -413,12 +413,12 @@ blockquote {
     max-height: calc((60rem / 4 / 3 * 4) - (3rem / 4));
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1099px) {
     .four-col-mastermind-item .mastermind-wrapper {
         width: calc((90vw / 3) - (2rem / 3));
         height: calc((90vw / 3 / 3 * 4) - (2rem / 3));
-        max-width: calc((991 * 0.9 / 3 * 1rem) - (2rem / 3));
-        max-height: calc((991 * 0.9 / 3 / 3 * 4 * 1rem) - (2rem / 3));
+        max-width: calc((1099 * 0.9 / 3 * 1rem) - (2rem / 3));
+        max-height: calc((1099 * 0.9 / 3 / 3 * 4 * 1rem) - (2rem / 3));
     }
 }
 
@@ -440,7 +440,7 @@ blockquote {
     padding-bottom: 12rem;
 }
 
-@media screen and (max-width: 991px) 
+@media screen and (max-width: 1099px) 
     { .four-cols-mastermind-list { padding-bottom: 8rem; } 
 }
 
