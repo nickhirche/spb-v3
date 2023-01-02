@@ -417,15 +417,15 @@ blockquote {
 
 
 .four-col-mastermind-item:nth-child(4n) {
-    transform: translate3d(6rem, 0px, 0px) 
+    transform: translate3d(0px, 6rem, 0px) 
 }
 
 .four-col-mastermind-item:nth-child(4n+3) {
-    transform: translate3d(12rem, 0px, 0px) 
+    transform: translate3d(0px, 12rem, 0px) 
 }
 
 .four-col-mastermind-item:nth-child(4n+4) {
-    transform: translate3d(4rem, 0px, 0px) 
+    transform: translate3d0px, (4rem, 0px) 
 }
 
 
