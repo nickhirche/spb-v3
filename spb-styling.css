@@ -525,7 +525,7 @@ blockquote {
     opacity: 100%;
 }
 
-.company-group .company-logo::after {
+.company-group:first-child::after {
     content: "";
     height: 1px;
     width: 100%;
