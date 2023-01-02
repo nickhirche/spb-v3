@@ -367,6 +367,36 @@ blockquote {
     }
 }
 
+/* MASTERMINDS */
+
+.four-cols-mastermind-list {
+    width: calc((100% / 4) - (3rem / 4);
+}
+
+@media screen and (max-width: 991px) {
+    .four-cols-mastermind-list {
+        width: calc((100% / 4) - (3rem / 4);
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .four-cols-mastermind-list {
+        width: calc((100% / 4) - (4rem / 4);
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .four-cols-mastermind-list {
+        width: calc((100% / 4) - (3rem / 4);
+    }
+}
+
+.four-cols-mastermind-list .mastermind-wrapper {
+    width: calc((90vw / 4) - (3rem / 4);
+    height: calc((90vw / 4 / 3 * 4) - (3rem / 4);
+}
+
+
 .author-meta .figcaption {
     padding-right: 1rem;
     border-right: solid 1px rgba(192, 168, 240, .2);
