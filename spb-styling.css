@@ -405,11 +405,15 @@ blockquote {
     .four-col-mastermind-item .mastermind-wrapper {
         width: calc((90vw / 2) - (1rem / 2));
         height: calc((90vw / 2 / 3 * 4) - (1rem / 2));
-        max-width: calc((34rem / 2) - (1rem / 2));
-        max-height: calc((34rem / 2 / 3 * 4) - (1rem / 2));
+        max-width: calc((32rem / 2) - (1rem / 2));
+        max-height: calc((32rem / 2 / 3 * 4) - (1rem / 2));
     }
 }
 
+.masterind-meta-group, .mastermind-description-group {
+    -webkit-backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1rem);
+}
 
 .author-meta .figcaption {
     padding-right: 1rem;
