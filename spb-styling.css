@@ -381,12 +381,6 @@ blockquote {
 
 @media screen and (max-width: 767px) {
     .four-col-mastermind-item {
-        width: calc((100% / 3) - (2rem / 3));
-    }
-}
-
-@media screen and (max-width: 479px) {
-    .four-col-mastermind-item {
         width: calc((100% / 2) - (1rem / 2));
     }
 }
@@ -404,13 +398,6 @@ blockquote {
 }
 
 @media screen and (max-width: 767px) {
-    .four-col-mastermind-item .mastermind-wrapper {
-        width: calc((90vw / 3) - (2rem / 3));
-        height: calc((90vw / 3 / 3 * 4) - (2rem / 3));
-    }
-}
-
-@media screen and (max-width: 479px) {
     .four-col-mastermind-item .mastermind-wrapper {
         width: calc((90vw / 2) - (1rem / 2));
         height: calc((90vw / 2 / 3 * 4) - (1rem / 2));
