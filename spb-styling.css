@@ -436,12 +436,12 @@ blockquote {
 }
 
 @media screen and (max-width: 991px) {
-    .four-col-mastermind-item:nth-child(4n+1) { transform: translate3d(0px, 0px, 0px)  }
+    .four-col-mastermind-item:nth-child(4n+1) { transform:none }
     .four-col-mastermind-item:nth-child(3n+1) { transform: translate3d(0px, 4rem, 0px)  }
 }
 
 @media screen and (max-width: 767px) {
-    .four-col-mastermind-item:nth-child(3n+1) { transform: translate3d(0px, 0px, 0px)  }
+    .four-col-mastermind-item:nth-child(3n+1) { transform:none }
     .four-col-mastermind-item:nth-child(2n+1) { transform: translate3d(0px, 2rem, 0px)  }
 }
 
@@ -450,12 +450,12 @@ blockquote {
 }
 
 @media screen and (max-width: 991px) {
-    .four-col-mastermind-item:nth-child(4n+3) { transform: translate3d(0px, 0px, 0px)  }
+    .four-col-mastermind-item:nth-child(4n+3) { transform:none }
     .four-col-mastermind-item:nth-child(3n+3) { transform: translate3d(0px, 8rem, 0px)  }
 }
 
 @media screen and (max-width: 767px) {
-    .four-col-mastermind-item:nth-child(3n+3) { transform: translate3d(0px, 0px, 0px)  }
+    .four-col-mastermind-item:nth-child(3n+3) { transform:none }
 }
 
 .four-col-mastermind-item:nth-child(4n+4) {
@@ -463,7 +463,7 @@ blockquote {
 }
 
 @media screen and (max-width: 991px) {
-    .four-col-mastermind-item:nth-child(4n+4) { transform: translate3d(0px, 0px, 0px)  }
+    .four-col-mastermind-item:nth-child(4n+4) { transform:none }
 }
 
 
