@@ -91,7 +91,7 @@ a {
     transform: translate3d(-.7rem, 0px, 0px) 
 }
 
-.button-accordion.w--open .icon .close {
+.button-accordion.w--open .icon-small .close {
     opacity: 0;
 }
 
