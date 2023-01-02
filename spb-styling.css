@@ -416,7 +416,7 @@ blockquote {
 }
 
 
-.four-col-mastermind-item:nth-child(4n) {
+.four-col-mastermind-item:nth-child(4n+1) {
     transform: translate3d(0px, 6rem, 0px) 
 }
 
