@@ -390,7 +390,7 @@ blockquote {
 
 /* MASTERMINDS */
 
-@media screen and (max-width: 393px) {
+@media screen and (max-width: 414px) {
     .four-cols-mastermind-list {
         max-width: 14rem;
     }
@@ -412,7 +412,7 @@ blockquote {
     }
 }
 
-@media screen and (max-width: 393px) {
+@media screen and (max-width: 414px) {
     .four-col-mastermind-item {
         width: 100%;
         max-width: 14rem;
@@ -444,7 +444,7 @@ blockquote {
     }
 }
 
-@media screen and (max-width: 393px) {
+@media screen and (max-width: 414px) {
     .four-col-mastermind-item .mastermind-wrapper {
         width: 90vw;
         height: calc(90vw / 3 * 4);
@@ -470,7 +470,7 @@ blockquote {
     .four-cols-mastermind-list { padding-bottom: 4rem; }
 }
 
-@media screen and (max-width: 393px) {
+@media screen and (max-width: 414px) {
     .four-cols-mastermind-list { padding-bottom: 0; }
 }
 
@@ -501,7 +501,7 @@ blockquote {
     .four-col-mastermind-item:nth-child(2n+1) { transform: translate3d(0px, 4rem, 0px)  }
 }
 
-@media screen and (max-width: 393px) {
+@media screen and (max-width: 414px) {
     .four-col-mastermind-item:nth-child(2n+1) { transform:none }
 }
 
