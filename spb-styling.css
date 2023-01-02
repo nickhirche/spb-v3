@@ -415,6 +415,22 @@ blockquote {
     backdrop-filter: blur(1rem);
 }
 
+
+.mastermind-wrapper:nth-child(4n) {
+    transform: translate3d(6rem, 0px, 0px) 
+}
+
+.mastermind-wrapper:nth-child(4n+3) {
+    transform: translate3d(12rem, 0px, 0px) 
+}
+
+.mastermind-wrapper:nth-child(4n+4) {
+    transform: translate3d(4rem, 0px, 0px) 
+}
+
+
+/* AUTHORS */
+
 .author-meta .figcaption {
     padding-right: 1rem;
     border-right: solid 1px rgba(192, 168, 240, .2);
