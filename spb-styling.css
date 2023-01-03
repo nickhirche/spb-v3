@@ -101,6 +101,25 @@ a {
     opacity: 0;
 }
 
+/* NAVIGATION */
+
+.navigation {
+    -webkit-backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1rem);
+}
+
+@media screen and (max-width: 767px) {
+    .nav-dropdown > .nav-button {
+        font-size: 1.2rem;
+    }    
+    .nav-dropdown .nav-dropdown-list .nav-button {
+        font-size: .9rem;
+    }    
+}
+
+
+
+
 /* RICHTEXTEDITOR */
 
 .article-rte a {
