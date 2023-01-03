@@ -386,7 +386,7 @@ blockquote {
 @media screen and (max-width: 479px) {
     .ebook-image {
         width: calc(90vw - 3rem);
-        height: calc((90vw / 3 * 4) - - 3rem);
+        height: calc((90vw / 3 * 4) - 3rem);
     }
 }
 
