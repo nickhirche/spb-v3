@@ -109,7 +109,7 @@ a {
 }
 
 @media screen and (max-width: 767px) {
-    .nav-menu > .nav-button {
+    .nav-menu .nav-button {
         font-size: 1.2rem;
     }    
     .nav-dropdown .nav-dropdown-list .nav-button {
