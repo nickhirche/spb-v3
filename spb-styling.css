@@ -639,7 +639,7 @@ blockquote {
 /* SWIPER SLIDER */
 
 .swiper-slider {
-    width: calc(100% 1rem);
+    width: calc(100% + 1rem);
     margin-left: -.5rem;
 }
 
