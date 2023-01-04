@@ -35,7 +35,7 @@ a {
     margin-top: 6rem;
 }
 .top-medium {
-    margin-top: 2rem;
+    margin-top: 3rem;
 }
 .top-small {
     margin-top: 2rem;
@@ -301,6 +301,28 @@ blockquote {
 @media screen and (max-width: 479px) {
     .three-cols-teasergroup-item {
         width: 100%;
+    }
+}
+
+/* BENEFITS TEASER */
+
+@media screen and (max-width: 767px) {
+    .benefits-teaser .three-cols-teasergroup-item {
+        width: 100%;
+    }
+
+    .benefits-teaser .three-cols-teasergroup-item .teasercard-wrapper {
+        flex-direction: row;
+        padding-left: 2rem;
+        padding-right: 2rem;        
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .benefits-teaser .three-cols-teasergroup-item .teasercard-wrapper {
+        flex-direction: column;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;        
     }
 }
 
