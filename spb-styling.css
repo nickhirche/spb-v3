@@ -636,6 +636,13 @@ blockquote {
 }
 
 
+/* SWIPER SLIDER */
+
+.swiper-wrapper {
+    width: calc(100% - 2rem);
+}
+
+
 /* OLD STUFF */
 
 .primary:disabled,
