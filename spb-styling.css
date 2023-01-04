@@ -642,6 +642,9 @@ blockquote {
     width: calc(100% - 2rem);
 }
 
+.swiper-slider .swiper-slide:first-child {
+    margin-left: 1rem;
+}
 
 /* OLD STUFF */
 
