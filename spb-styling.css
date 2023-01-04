@@ -638,7 +638,7 @@ blockquote {
 
 /* SWIPER SLIDER */
 
-.swiper-wrapper {
+.swiper-slider {
     width: calc(100% - 2rem);
 }
 
