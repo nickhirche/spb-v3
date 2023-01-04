@@ -314,8 +314,16 @@ blockquote {
 }
 
 @media screen and (max-width: 767px) {
+    .benefits-teaser .three-cols-teasergroup-list {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+
     .benefits-teaser .three-cols-teasergroup-item {
         width: 100%;
+        max-width: 32rem;
     }
 
     .benefits-teaser .three-cols-teasergroup-item .teasercard-wrapper {
