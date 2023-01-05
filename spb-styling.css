@@ -645,13 +645,15 @@ blockquote {
 
 @media screen and (max-width: 959px) { 
     .swiper-slider { 
+        width: 90%;
         max-width: 40rem;
     }
 }
 
-.swiper-button-disable, .swiper-button-disable:hover {
+.swiper-button-disabled, .swiper-button-disabled:hover {
     color: rgba(260,7,98,.03);
     background-color: transparent;
+    cursor: default;
 }
 
 /* OLD STUFF */
