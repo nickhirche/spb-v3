@@ -651,22 +651,12 @@ blockquote {
     .two-cols-mastermind-list { padding-bottom: 0; }
 }
 
-.two-col-mastermind-item:nth-child(4n+1) {
+.two-col-mastermind-item:nth-child(2n+1) {
     transform: translate3d(0px, 6rem, 0px) 
 }
 
-.two-col-mastermind-item:nth-child(4n+3) {
-    transform: translate3d(0px, 12rem, 0px) 
-}
-
-.two-col-mastermind-item:nth-child(4n+4) {
-    transform: translate3d(0px, 4rem, 0px) 
-}
-
 @media screen and (max-width: 1099px) {
-    .two-col-mastermind-item:nth-child(4n+1) { transform:none }
-    .two-col-mastermind-item:nth-child(4n+3) { transform:none }
-    .two-col-mastermind-item:nth-child(4n+4) { transform:none }
+    .two-col-mastermind-item:nth-child(2n+1) { transform:none }
     .two-col-mastermind-item:nth-child(3n+3) { transform: translate3d(0px, 8rem, 0px)  }
     .two-col-mastermind-item:nth-child(3n+1) { transform: translate3d(0px, 4rem, 0px)  }
     .two-col-mastermind-item:nth-child(3n+1) { transform: translate3d(0px, 4rem, 0px)  }
