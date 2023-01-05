@@ -655,10 +655,13 @@ blockquote {
         width: 94%;
         max-width: 18rem;
     }
+    .swiper-nav-wrapper {
+        display: none;
+    }
 }
 
 .swiper-button-disabled, .swiper-button-disabled:hover, .swiper-button-disabled:active, .swiper-button-disabled:focus, .swiper-button-disabled:visited {
-    color: rgba(260,7,98,.03);
+    color: rgba(239, 233, 251, 0.3);
     background-color: transparent;
     cursor: default;
 }
