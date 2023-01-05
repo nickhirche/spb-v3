@@ -646,7 +646,7 @@ blockquote {
 @media screen and (max-width: 959px) { 
     .swiper-slider { 
         width: 90%;
-        max-width: 40rem;
+        max-width: 36rem;
     }
 }
 
