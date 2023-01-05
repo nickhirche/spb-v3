@@ -340,22 +340,6 @@ blockquote {
     }
 }
 
-@media screen and (max-width: 479px) {
-    .benefits-teaser .three-cols-teasergroup-item .teasercard-wrapper {
-        flex-direction: column;
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;        
-    }
-
-    .benefits-teaser .three-cols-teasergroup-item .teasercard-wrapper .title-teasertext-group {
-        -webkit-box-align: center;
-        -webkit-align-items: center;
-        -ms-flex-align: center;
-        align-items: center;
-        text-align: center;
-    }
-}
-
 
 /* POSTTEASER */
 
