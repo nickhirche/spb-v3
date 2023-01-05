@@ -650,6 +650,12 @@ blockquote {
     }
 }
 
+@media screen and (max-width: 559px) { 
+    .swiper-slider { 
+        max-width: 18rem;
+    }
+}
+
 .swiper-button-disabled, .swiper-button-disabled:hover {
     color: rgba(260,7,98,.03);
     background-color: transparent;
