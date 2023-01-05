@@ -578,8 +578,19 @@ blockquote {
     .four-col-mastermind-item:nth-child(2n+1) { transform:none }
 }
 
+
+@media screen and (max-width: 1099px) {
+    .mastermind-tab-menu {
+        width: 100%;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+}
+
 .two-col-mastermind-item {
-    width: calc((100% / 2) - 1rem);
+    width: calc((100% / 2) - (1rem / 2));
 }
 
 @media screen and (max-width: 1099px) {
