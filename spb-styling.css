@@ -346,6 +346,23 @@ blockquote {
     }
 }
 
+/*
+@media screen and (max-width: 479px) {
+    .benefits-teaser .three-cols-teasergroup-item .teasercard-wrapper {
+        flex-direction: column;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;        
+    }
+
+    .benefits-teaser .three-cols-teasergroup-item .teasercard-wrapper .title-teasertext-group {
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+*/
 
 /* POSTTEASER */
 
@@ -514,11 +531,6 @@ blockquote {
     }
 }
 
-.masterind-meta-group, .mastermind-description-group {
-    -webkit-backdrop-filter: blur(1rem);
-    backdrop-filter: blur(1rem);
-}
-
 .four-cols-mastermind-list {
     padding-bottom: 12rem;
 }
@@ -564,6 +576,115 @@ blockquote {
 
 @media screen and (max-width: 414px) {
     .four-col-mastermind-item:nth-child(2n+1) { transform:none }
+}
+
+.two-col-mastermind-item {
+    width: calc((100% / 2) - 1rem);
+}
+
+@media screen and (max-width: 1099px) {
+    .two-col-mastermind-item {
+        width: calc((100% / 3) - (2rem / 3));
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .two-col-mastermind-item {
+        width: calc((100% / 2) - (1rem / 2));
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .two-col-mastermind-item {
+        width: 100%;
+        max-width: 14rem;
+    }
+}
+
+.two-col-mastermind-item .mastermind-wrapper {
+    width: calc((90vw / 4) - (3rem / 4));
+    height: calc((90vw / 4 / 3 * 4) - (3rem / 4));
+    max-width: calc((60rem / 4) - (3rem / 4));
+    max-height: calc((60rem / 4 / 3 * 4) - (3rem / 4));
+}
+
+@media screen and (max-width: 1099px) {
+    .two-col-mastermind-item .mastermind-wrapper {
+        width: calc((90vw / 3) - (2rem / 3));
+        height: calc((90vw / 3 / 3 * 4) - (2rem / 3));
+        max-width: calc((1099 * 0.9 / 3 * 1rem) - (2rem / 3));
+        max-height: calc((1099 * 0.9 / 3 / 3 * 4 * 1rem) - (2rem / 3));
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .two-col-mastermind-item .mastermind-wrapper {
+        width: calc((90vw / 2) - (1rem / 2));
+        height: calc((90vw / 2 / 3 * 4) - (1rem / 2));
+        max-width: calc((32rem / 2) - (1rem / 2));
+        max-height: calc((32rem / 2 / 3 * 4) - (1rem / 2));
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .two-col-mastermind-item .mastermind-wrapper {
+        width: 90vw;
+        height: calc(90vw / 3 * 4);
+        max-width: 14rem;
+        max-height: calc(14rem / 3 * 4);
+    }
+}
+
+.two-cols-mastermind-list {
+    padding-bottom: 12rem;
+}
+
+@media screen and (max-width: 1099px) 
+    { .two-cols-mastermind-list { padding-bottom: 8rem; } 
+}
+
+@media screen and (max-width: 767px) {
+    .two-cols-mastermind-list { padding-bottom: 4rem; }
+}
+
+@media screen and (max-width: 414px) {
+    .two-cols-mastermind-list { padding-bottom: 0; }
+}
+
+.two-col-mastermind-item:nth-child(4n+1) {
+    transform: translate3d(0px, 6rem, 0px) 
+}
+
+.two-col-mastermind-item:nth-child(4n+3) {
+    transform: translate3d(0px, 12rem, 0px) 
+}
+
+.two-col-mastermind-item:nth-child(4n+4) {
+    transform: translate3d(0px, 4rem, 0px) 
+}
+
+@media screen and (max-width: 1099px) {
+    .two-col-mastermind-item:nth-child(4n+1) { transform:none }
+    .two-col-mastermind-item:nth-child(4n+3) { transform:none }
+    .two-col-mastermind-item:nth-child(4n+4) { transform:none }
+    .two-col-mastermind-item:nth-child(3n+3) { transform: translate3d(0px, 8rem, 0px)  }
+    .two-col-mastermind-item:nth-child(3n+1) { transform: translate3d(0px, 4rem, 0px)  }
+    .two-col-mastermind-item:nth-child(3n+1) { transform: translate3d(0px, 4rem, 0px)  }
+}
+
+@media screen and (max-width: 767px) {
+    .two-col-mastermind-item:nth-child(3n+1) { transform:none }
+    .two-col-mastermind-item:nth-child(3n+3) { transform:none }
+    .two-col-mastermind-item:nth-child(2n+1) { transform: translate3d(0px, 4rem, 0px)  }
+}
+
+@media screen and (max-width: 414px) {
+    .two-col-mastermind-item:nth-child(2n+1) { transform:none }
+}
+
+.masterind-meta-group, .mastermind-description-group {
+    -webkit-backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1rem);
 }
 
 
