@@ -657,7 +657,7 @@ blockquote {
     }
 }
 
-.swiper-button-disabled, .swiper-button-disabled:hover {
+.swiper-button-disabled, .swiper-button-disabled:hover, .swiper-button-disabled:active, .swiper-button-disabled:focus, .swiper-button-disabled:visited {
     color: rgba(260,7,98,.03);
     background-color: transparent;
     cursor: default;
