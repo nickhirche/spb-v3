@@ -649,6 +649,11 @@ blockquote {
     }
 }
 
+.swiper-button-disable, .swiper-button-disable:hover {
+    color: rgba(260,7,98,.03);
+    background-color: transparent;
+}
+
 /* OLD STUFF */
 
 .primary:disabled,
