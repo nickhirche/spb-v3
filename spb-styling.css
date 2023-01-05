@@ -638,13 +638,13 @@ blockquote {
 
 /* SWIPER SLIDER */
 
-.swiper-wrapper {
+.swiper-slider {
     width: calc(100% + 1rem);
     margin-left: -.5rem;
 }
 
 @media screen and (max-width: 959px) { 
-    .swiper-wrapper { 
+    .swiper-slider { 
         max-width: 40rem;
     }
 }
