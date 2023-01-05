@@ -340,6 +340,12 @@ blockquote {
     }
 }
 
+@media screen and (max-width: 479px) {
+    .benefits-teaser .three-cols-teasergroup-item .teasercard-wrapper {
+        padding: 1.5rem;     
+    }
+}
+
 
 /* POSTTEASER */
 
