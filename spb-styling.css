@@ -645,14 +645,14 @@ blockquote {
 
 @media screen and (max-width: 959px) { 
     .swiper-slider { 
-        width: 95%;
+        width: 98%;
         max-width: 36rem;
     }
 }
 
 @media screen and (max-width: 599px) { 
     .swiper-slider { 
-        width: 90%;
+        width: 94%;
         max-width: 18rem;
     }
 }
