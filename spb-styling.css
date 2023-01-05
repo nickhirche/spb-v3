@@ -643,6 +643,12 @@ blockquote {
     margin-left: -.5rem;
 }
 
+@media screen and (max-width: 959px) { 
+    .swiper-slider { 
+        max-width: 40rem;
+    }
+}
+
 /* OLD STUFF */
 
 .primary:disabled,
