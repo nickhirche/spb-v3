@@ -709,6 +709,13 @@ blockquote {
     transform: translate3d(0px, 6rem, 0px) 
 }
 
+.two-col-mastermind-item:nth-child(4)::after {
+    content: "";
+    height: 6rem;
+    width: 1rem;
+    display: inline-block;
+}
+
 @media screen and (max-width: 1099px) {
     .two-col-mastermind-item:nth-child(2n+1) { transform:none; }
     .two-col-mastermind-item:nth-child(1) { transform: translate3d(0px, 3rem, 0px);  }
