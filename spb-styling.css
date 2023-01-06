@@ -621,7 +621,7 @@ blockquote {
     }
 }
 
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 1099px) {
     .mastermind-tab-menu {
         -webkit-box-orient: horizontal;
         -webkit-box-direction: normal;
@@ -635,6 +635,12 @@ blockquote {
         -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1099px) {
+    .mastermind-tab-content {
+        width: 100%;
     }
 }
 
@@ -670,7 +676,7 @@ blockquote {
 
 
 .two-cols-mastermind-list {
-    padding-bottom: 12rem;
+    padding-bottom: 6rem;
 }
 
 @media screen and (max-width: 1099px) 
@@ -691,9 +697,9 @@ blockquote {
 
 @media screen and (max-width: 1099px) {
     .two-col-mastermind-item:nth-child(2n+1) { transform:none }
+    .two-col-mastermind-item:nth-child(3n+1) { transform: translate3d(0px, 4rem, 0px)  }
     .two-col-mastermind-item:nth-child(3n+3) { transform: translate3d(0px, 8rem, 0px)  }
-    .two-col-mastermind-item:nth-child(3n+1) { transform: translate3d(0px, 4rem, 0px)  }
-    .two-col-mastermind-item:nth-child(3n+1) { transform: translate3d(0px, 4rem, 0px)  }
+
 }
 
 @media screen and (max-width: 767px) {
