@@ -737,8 +737,11 @@ blockquote {
 
 @media screen and (max-width: 414px) {
     .two-col-mastermind-item:nth-child(2n+1) { transform:none; }
-    .two-col-mastermind-item:nth-child(3n+1) { transform: translate3d(1rem, 0px, 0px);  }
-    .two-col-mastermind-item:nth-child(3n+3) { transform: translate3d(-1rem, 0px, 0px);  }
+    .two-col-mastermind-item:nth-child(5n+1) { transform: translate3d(0px, 0px, 0px);  }
+    .two-col-mastermind-item:nth-child(5n+2) { transform: translate3d(-10vw, 0px, 0px);  }
+    .two-col-mastermind-item:nth-child(5n+3) { transform: translate3d(5vw, 0px, 0px);  }
+    .two-col-mastermind-item:nth-child(5n+4) { transform: translate3d(-5vw, 0px, 0px);  }
+    .two-col-mastermind-item:nth-child(5n+4) { transform: translate3d(-10vw, 0px, 0px);  }
 }
 
 .masterind-meta-group, .mastermind-description-group {
