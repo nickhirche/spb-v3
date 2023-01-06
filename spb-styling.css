@@ -693,10 +693,6 @@ blockquote {
 }
 
 
-.two-cols-mastermind-list {
-    padding-bottom: 6rem;
-}
-
 @media screen and (max-width: 767px) {
     .two-cols-mastermind-list { padding-bottom: 4rem; }
 }
@@ -717,10 +713,12 @@ blockquote {
 }
 
 @media screen and (max-width: 1099px) {
-    .two-col-mastermind-item:nth-child(2n+1) { transform:none; }
+    .two-col-mastermind-item:nth-child(2n+2) { transform:none; }
     .two-col-mastermind-item:nth-child(1) { transform: translate3d(0px, 3rem, 0px);  }
     .two-col-mastermind-item:nth-child(3) { transform: translate3d(0px, 6rem, 0px);  }
     .two-col-mastermind-item:nth-child(4) { transform: translate3d(0px, 0px, 0px);  }
+    .two-col-mastermind-item:nth-child(4)::after { content: unset; }
+    .two-col-mastermind-item:nth-child(3)::after { content: ""; height: 5.5rem; width: 100%; display: inline-block; }
 
 }
 
