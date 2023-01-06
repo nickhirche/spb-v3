@@ -644,6 +644,15 @@ blockquote {
     }
 }
 
+@media screen and (max-width: 1099px) {
+    .two-cols-mastermind-list {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+
 .two-col-mastermind-item {
     width: calc((100% / 2) - (1rem / 2));
 }
@@ -699,6 +708,7 @@ blockquote {
     .two-col-mastermind-item:nth-child(2n+1) { transform:none }
     .two-col-mastermind-item:nth-child(3n+1) { transform: translate3d(0px, 4rem, 0px)  }
     .two-col-mastermind-item:nth-child(3n+3) { transform: translate3d(0px, 8rem, 0px)  }
+    .two-col-mastermind-item:nth-child(4) { transform: translate3d(0px, 0px, 0px)  }
 
 }
 
