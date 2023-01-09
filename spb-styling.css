@@ -833,8 +833,6 @@ blockquote {
 }
 
 .swiper-slide-active .post-teaser .content-wrapper {
-    grid-column-gap: 3rem;
-    grid-row-gap: 3rem;
     background-color: #22202D;
 }
 
@@ -857,8 +855,8 @@ blockquote {
     border-radius: 0.8rem;
     top: 0;
     bottom: 0;
-    left: 0;
-    right: 0;
+    left: .5rem;
+    right: .5rem;
     z-index: -1;
     background: conic-gradient(from 142.36deg at 61.82% 70.79%, #FF8A3B -61.87deg, #4701D9 61.87deg, #4701D9 123.75deg, #FF8A3B 236.25deg, #FF8A3B 298.12deg, #4701D9 421.87deg);
 }
@@ -866,8 +864,8 @@ blockquote {
 .swiper-story-slider .swiper-slide-active .swiper-slide::before {
     top: -2px;
     bottom: -2px;
-    left: -2px;
-    right: -2px;
+    left: calc(.5rem - 2px);
+    right: calc(.5rem - 2px);
     opacity: 100%;
 }
 
