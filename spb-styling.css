@@ -850,10 +850,12 @@ blockquote {
 }
 
 .swiper-story-slider .batch-arrow-wrapper {
+    display: none;
     opacity: 0;
 }
 
 .swiper-story-slider .swiper-slide-active .batch-arrow-wrapper {
+    display: flex;
     opacity: 100%;
 }
 
