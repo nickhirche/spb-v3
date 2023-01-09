@@ -284,7 +284,7 @@ blockquote {
 
 /* COL GROUPS */
 
-.three-cols-teasergroup-item .icon-button, .three-cols-teasergroup-item .preview-image, .three-cols-teasergroup-item .content-wrapper { 
+.three-cols-teasergroup-item .icon-button, .three-cols-teasergroup-item .preview-image, .swiper-slide .preview-image, .three-cols-teasergroup-item .content-wrapper { 
     -webkit-transition: 400ms cubic-bezier(0.65, 0, 0.35, 1);
     transition: 0.4s cubic-bezier(0.65, 0, 0.35, 1); 
 }
@@ -741,7 +741,7 @@ blockquote {
     .two-col-mastermind-item:nth-child(5n+2) { transform: translate3d(-10vw, 0px, 0px);  }
     .two-col-mastermind-item:nth-child(5n+3) { transform: translate3d(5vw, 0px, 0px);  }
     .two-col-mastermind-item:nth-child(5n+4) { transform: translate3d(-5vw, 0px, 0px);  }
-    .two-col-mastermind-item:nth-child(5n+4) { transform: translate3d(-10vw, 0px, 0px);  }
+    .two-col-mastermind-item:nth-child(5n+5) { transform: translate3d(10vw, 0px, 0px);  }
 }
 
 .masterind-meta-group, .mastermind-description-group {
