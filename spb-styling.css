@@ -846,6 +846,18 @@ blockquote {
     opacity: 0;
 }
 
+.swiper-slide-active .post-teaser:hover .content-wrapper {
+    background-color: #22202D;
+}
+
+.swiper-slide-active .post-teaser:hover .icon-button {
+    color: #EFE9FB;
+}
+
+.swiper-slide-active .post-teaser:hover .company-logo {
+    opacity: 100%;
+}
+
 .swiper-story-slider .batch-arrow-wrapper {
     transform: translate3d(1rem, 0px, 0px);
     opacity: 0;
