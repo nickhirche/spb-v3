@@ -841,13 +841,13 @@ blockquote {
 
 /* SWIPER STORY SLIDER */
 .swiper-story-slider .post-teaser {
-    margin-top: 5rem;
-    padding-bottom: 5rem;
+    margin-top: 2.5rem;
+    margin-bottom: -5rem;
 }
 
 .swiper-story-slider .swiper-slide-active .post-teaser {
     margin-top: 0;
-    padding-bottom: 0;
+    margin-bottom: 0;
 }
 
 .swiper-slide-active .post-teaser .content-wrapper {
