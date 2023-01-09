@@ -845,14 +845,19 @@ blockquote {
     opacity: 0;
 }
 
-.swiper-story-slider .swiper-slide-active::before {
+.swiper-story-slider .swiper-slide::before {
     content: "";
+    opacity: 0;
     position: absolute;
     top: -.5rem;
     bottom: -.5rem;
     left: -.5rem;
     right: -.5rem;
     background: conic-gradient(from 142.36deg at 61.82% 70.79%, #FF8A3B -61.87deg, #4701D9 61.87deg, #4701D9 123.75deg, #FF8A3B 236.25deg, #FF8A3B 298.12deg, #4701D9 421.87deg);
+}
+
+.swiper-story-slider .swiper-slide-active::before {
+    opacity: 100%;
 }
 
 .swiper-story-slider .swiper-slide-active .batch-arrow-wrapper {
