@@ -843,7 +843,11 @@ blockquote {
 .swiper-story-slider .post-teaser {
     margin-top: 5rem;
     padding-bottom: 5rem;
-    opacity: 0;
+}
+
+.swiper-story-slider .swiper-slide-active .post-teaser {
+    margin-top: 0;
+    padding-bottom: 0;
 }
 
 .swiper-slide-active .post-teaser .content-wrapper {
@@ -863,6 +867,10 @@ blockquote {
     opacity: 0;
 }
 
+.swiper-story-slider .swiper-slide-active .batch-arrow-wrapper {
+    opacity: 100%;
+}
+
 .swiper-story-slider .swiper-slide::after {
     content: "";
     opacity: 0;
@@ -876,12 +884,10 @@ blockquote {
 }
 
 .swiper-story-slider .swiper-slide-active::after {
-
-}
-
-.swiper-story-slider .swiper-slide-active .batch-arrow-wrapper {
     opacity: 100%;
 }
+
+
 
 
 /* OLD STUFF */
