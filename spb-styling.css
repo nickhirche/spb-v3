@@ -862,7 +862,7 @@ blockquote {
     transition: 0.4s cubic-bezier(0.65, 0, 0.35, 1); 
 }
 
-.swiper-story-slider .swiper-slide-active .swiper-slide::after {
+.swiper-story-slider .swiper-slide.swiper-slide-active::after {
     top: -2px;
     bottom: -2px;
     left: calc(.5rem - 2px);
