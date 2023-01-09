@@ -876,11 +876,11 @@ blockquote {
 }
 
 .swiper-story-slider .swiper-slide-active::after {
-    opacity: 100%;
+
 }
 
 .swiper-story-slider .swiper-slide-active .batch-arrow-wrapper {
-
+    opacity: 100%;
 }
 
 
