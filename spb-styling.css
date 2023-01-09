@@ -846,15 +846,15 @@ blockquote {
     opacity: 0;
 }
 
-.swiper-slide-active .post-teaser:hover .content-wrapper {
+.swiper-slide-active .post-teaser .content-wrapper {
     background-color: #22202D;
 }
 
-.swiper-slide-active .post-teaser:hover .icon-button {
+.swiper-slide-active .post-teaser .icon-button {
     color: #EFE9FB;
 }
 
-.swiper-slide-active .post-teaser:hover .company-logo {
+.swiper-slide-active .post-teaser .company-logo {
     opacity: 100%;
 }
 
