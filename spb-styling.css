@@ -839,6 +839,18 @@ blockquote {
     cursor: default;
 }
 
+/* SWIPER STORY SLIDER */
+
+.swiper-story-slider .swiper-slide-active .post-teaser::before {
+    content: "";
+    position: absolute;
+    top: -.5rem;
+    bottom: -.5rem;
+    left: -.5rem;
+    right: -.5rem;
+    background: conic-gradient(from 142.36deg at 61.82% 70.79%, #FF8A3B -61.87deg, #4701D9 61.87deg, #4701D9 123.75deg, #FF8A3B 236.25deg, #FF8A3B 298.12deg, #4701D9 421.87deg);
+}
+
 /* OLD STUFF */
 
 .primary:disabled,
