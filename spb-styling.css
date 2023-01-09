@@ -847,8 +847,11 @@ blockquote {
     opacity: 100%;
 }
 
+.swiper-slide-active .preview-image {
+    transform: scale3d(1.05, 1.05, 1) ; 
+}
+
 .swiper-story-slider .batch-arrow-wrapper {
-    transform: translate3d(1rem, 0px, 0px);
     opacity: 0;
 }
 
