@@ -372,6 +372,13 @@ blockquote {
     aspect-ratio: 16 / 9;
 }
 
+@media screen and (max-width: 1099px) {
+    .post-teaser .teaser-image {
+        width: 100%;
+        height: 100%;
+    }
+}
+
 .post-teaser:hover .preview-image {
     transform: scale3d(1.05, 1.05, 1) ; 
 }
