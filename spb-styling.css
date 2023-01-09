@@ -871,7 +871,7 @@ blockquote {
     opacity: 100%;
 }
 
-.swiper-story-slider .swiper-slide::after {
+.swiper-story-slider .post-teaser::after {
     content: "";
     opacity: 0;
     position: absolute;
@@ -883,7 +883,7 @@ blockquote {
     background: conic-gradient(from 142.36deg at 61.82% 70.79%, #FF8A3B -61.87deg, #4701D9 61.87deg, #4701D9 123.75deg, #FF8A3B 236.25deg, #FF8A3B 298.12deg, #4701D9 421.87deg);
 }
 
-.swiper-story-slider .swiper-slide-active::after {
+.swiper-story-slider .post-teaser::after {
     opacity: 100%;
 }
 
