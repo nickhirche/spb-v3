@@ -943,7 +943,7 @@ blockquote {
 /* TEASER CARDS */
 
 .three-cols-teasergroup.challenges-teaser .teasercard-wrapper {
-    margin-top: 1.5rem;
+    padding-top: 1.5rem;
     grid-column-gap: 1.5rem;
     grid-row-gap: 1.5rem;
 }
