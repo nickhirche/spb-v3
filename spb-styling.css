@@ -879,7 +879,7 @@ blockquote {
 
 .accordion-toggle .plus-icon .close {
     -webkit-transition: 400ms cubic-bezier(0.65, 0, 0.35, 1);
-    transition: 0.3s cubic-bezier(0.65, 0, 0.35, 1);
+    transition: 0.2s cubic-bezier(0.65, 0, 0.35, 1);
     transform-origin: center; 
 }
 
@@ -888,10 +888,16 @@ blockquote {
     opacity: 0;
 }
 
-.accordion-description::before {
+.accordion-description::before, .accordion-description::after {
     content: "";
-    height: 1rem;
+    height: .5rem;
+    width: .5rem;
     display: inline-block;
+}
+
+.faq-accordion:hover {
+    background-color: ;
+
 }
 
 /* OLD STUFF */
