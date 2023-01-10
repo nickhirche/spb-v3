@@ -937,8 +937,13 @@ blockquote {
 
 /* TEASER CARDS */
 
+.teasercard-wrapper {
+    -webkit-backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1rem);
+}
+
 a.teasercard-wrapper:hover {
-    background-color: #22202D;
+    background-color: rgba(239,233,251,10);
 }
 
 a.teasercard-wrapper:hover .icon-button {
