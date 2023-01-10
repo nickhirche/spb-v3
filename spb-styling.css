@@ -942,6 +942,12 @@ blockquote {
 
 /* TEASER CARDS */
 
+.three-cols-teasergroup.challenges-teaser .teasercard-wrapper {
+    margin-top: 1.5rem;
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 1.5rem;
+}
+
 .teasercard-wrapper {
     -webkit-backdrop-filter: blur(1rem);
     backdrop-filter: blur(1rem);
