@@ -35,6 +35,9 @@ a {
     margin-top: 6rem;
 }
 .top-medium {
+    margin-top: 4rem;
+}
+.top-normal {
     margin-top: 3rem;
 }
 .top-small {
@@ -311,20 +314,20 @@ blockquote {
 
 /* BENEFITS TEASER */
 
-.benefits-teaser .three-cols-teasergroup-list {
+/*.benefits-teaser .three-cols-teasergroup-list {
     -webkit-box-pack: start;
     -webkit-justify-content: flex-start;
     -ms-flex-pack: start;
     justify-content: flex-start;
-}
+}*/
 
 @media screen and (max-width: 659px) {
-    .benefits-teaser .three-cols-teasergroup-list {
+    /*.benefits-teaser .three-cols-teasergroup-list {
         -webkit-box-pack: center;
         -webkit-justify-content: center;
         -ms-flex-pack: center;
         justify-content: center;
-    }
+    }*/
 
     .benefits-teaser .three-cols-teasergroup-item {
         width: 100%;
