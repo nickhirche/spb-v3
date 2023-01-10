@@ -207,10 +207,6 @@ ol li::before {
     -webkit-text-fill-color: transparent;
     background-clip: text;
 }
-
-li {
-
-}
     
 .check-list-item::before {
     content: '';
@@ -299,14 +295,14 @@ blockquote {
     .three-cols-teasergroup-item {
         width: calc((100% / 2) - (1rem / 2))
     }
-    .three-cols-teasergroup-list {
+    .three-cols-teasergroup-list, .title-link-group {
         max-width: 36rem;
     }
 }
 
 @media screen and (max-width: 659px) {
     .three-cols-teasergroup-item { width: 100%; }
-    .three-cols-teasergroup-list { max-width: 19rem; }
+    .three-cols-teasergroup-list, .title-link-group { max-width: 19rem; }
     .benefits-teaser .three-cols-teasergroup-list { max-width: 100%;}
 }
 
