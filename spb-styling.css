@@ -873,10 +873,14 @@ blockquote {
 }
 
 /* Accordion */
+.accordion-toggle .icon-small {
+    margin-top: .2rem;
+}
 
 .accordion-toggle .plus-icon .close {
     -webkit-transition: 400ms cubic-bezier(0.65, 0, 0.35, 1);
-    transition: 0.4s cubic-bezier(0.65, 0, 0.35, 1); 
+    transition: 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+    transform-origin: center; 
 }
 
 .accordion-toggle.w--open .plus-icon .close {
