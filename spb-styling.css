@@ -297,19 +297,16 @@ blockquote {
         width: calc((100% / 2) - (1rem / 2))
     }
     .three-cols-teasergroup-list {
-        max-width: 34rem;
+        max-width: 36rem;
     }
 }
 
-@media screen and (max-width: 767px) {
-    .three-cols-teasergroup-item {
-        width: calc((100% / 2) - (1rem / 2))
-    }
-}
-
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 599px) {
     .three-cols-teasergroup-item {
         width: 100%;
+    }
+    .three-cols-teasergroup-list {
+        max-width: 19rem;
     }
 }
 
