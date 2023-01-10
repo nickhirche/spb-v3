@@ -943,7 +943,7 @@ blockquote {
 }
 
 a.teasercard-wrapper:hover {
-    background-color: rgba(239,233,251,10);
+    background-color: rgba(239,233,251,.1);
 }
 
 a.teasercard-wrapper:hover .icon-button {
