@@ -968,11 +968,12 @@ a.teasercard-wrapper:hover .icon-button {
     .three-cols-teasergroup-list.left-shifted .three-cols-teasergroup-item:nth-child(3n+2) { transform: none; }
     .three-cols-teasergroup-list.left-shifted .three-cols-teasergroup-item:nth-child(3n+3) { transform: none; }
     .three-cols-teasergroup-list.left-shifted .three-cols-teasergroup-item:nth-child(2n+2) { transform: translate3d(0px, 4rem, 0px); }
-    .three-cols-teasergroup-list.left-shifted { padding-bottom: 4rem}
+    .three-cols-teasergroup-list.left-shifted { padding-bottom: 4rem }
 }
 
 @media screen and (max-width: 659px) {
     .three-cols-teasergroup-list.left-shifted .three-cols-teasergroup-item:nth-child(2n+2) { transform: none; }
+    .three-cols-teasergroup-list.left-shifted { padding-bottom: unset }
 }
 
 
