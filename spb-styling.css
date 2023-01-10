@@ -415,7 +415,7 @@ blockquote {
 }
 
 .post-teaser:hover .content-wrapper {
-    background-color: #22202D;
+    background-color: rgba(239,233,251,.1);
 }
 
 .post-teaser:hover .icon-button {
@@ -449,13 +449,13 @@ blockquote {
     display: none;
 } 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1099px) {
     .three-cols-teasergroup-item.limited:nth-child(4) {
         display:flex;
     }
 }
 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 659px) {
     .three-cols-teasergroup-item.limited:nth-child(4) {
         display: none;
     }
