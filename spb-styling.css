@@ -950,6 +950,14 @@ a.teasercard-wrapper:hover .icon-button {
     color: #EFE9FB;
 }
 
+.three-cols-teasergroup-list.left-shifted .three-cols-teasergroup-item:nth-child(3n+2) {
+    transform: translate3d(0px, 4rem, 0px) 
+}
+
+.three-cols-teasergroup-list.left-shifted .three-cols-teasergroup-item:nth-child(3n+3) {
+    transform: translate3d(0px, 8rem, 0px) 
+}
+
 
 /* OLD STUFF */
 
