@@ -292,6 +292,12 @@ blockquote {
     width: calc((100% / 3) - (2rem / 3))
 }
 
+@media screen and (max-width: 1099px) {
+    .three-cols-teasergroup-item {
+        width: calc((100% / 2) - (1rem / 2))
+    }
+}
+
 @media screen and (max-width: 767px) {
     .three-cols-teasergroup-item {
         width: calc((100% / 2) - (1rem / 2))
@@ -303,6 +309,8 @@ blockquote {
         width: 100%;
     }
 }
+
+
 
 /* BENEFITS TEASER */
 
