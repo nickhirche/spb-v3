@@ -889,7 +889,7 @@ blockquote {
     width: calc(50% - 1rem);
 }
 
-@media screen and (max-width: 911px) { 
+@media screen and (max-width: 959px) { 
     .faq-list-wrapper.col-50 { 
         width: 100%;
     }
@@ -897,6 +897,7 @@ blockquote {
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
         flex-direction: column;
+        column-gap: 0.2rem;
     }
 }
 
