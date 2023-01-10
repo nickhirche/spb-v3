@@ -827,15 +827,10 @@ blockquote {
 @media screen and (max-width: 659px) { 
     .swiper-slider { 
         width: 94%;
+        max-width: 18rem;
     }
     .swiper-nav-wrapper {
         display: none;
-    }
-}
-
-@media screen and (max-width: 480px) { 
-    .swiper-slider { 
-        max-width: 18rem;
     }
 }
 
