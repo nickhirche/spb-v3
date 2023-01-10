@@ -958,10 +958,6 @@ a.teasercard-wrapper:hover .icon-button {
     transform: translate3d(0px, 8rem, 0px) 
 }
 
-.three-cols-teasergroup-list.left-shifted .three-cols-teasergroup-item:last-child {
-    margin-bottom: 4rem;
-}
-
 
 /* OLD STUFF */
 
