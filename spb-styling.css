@@ -872,6 +872,12 @@ blockquote {
     opacity: 100%;
 }
 
+/* Accordion */
+
+.accordion-toggle.w--open .plus-icon .open {
+    opacity: 0;
+}
+
 /* OLD STUFF */
 
 .primary:disabled,
