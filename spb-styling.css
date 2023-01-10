@@ -935,6 +935,17 @@ blockquote {
     display: inline-block;
 }
 
+/* TEASER CARDS */
+
+a.teasercard-wrapper:hover {
+    background-color: #22202D;
+}
+
+a.teasercard-wrapper:hover .icon-button {
+    color: #EFE9FB;
+}
+
+
 /* OLD STUFF */
 
 .primary:disabled,
