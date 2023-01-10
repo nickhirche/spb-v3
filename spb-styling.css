@@ -873,6 +873,22 @@ blockquote {
 }
 
 /* Accordion */
+.faq-list-wrapper.col-50 {
+    width: calc(50% - 1rem);
+}
+
+@media screen and (max-width: 911px) { 
+    .faq-list-wrapper.col-50 { 
+        width: 100%;
+    }
+    .faq-two-cols-wrapper { 
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+
 .accordion-toggle .icon-small {
     margin-top: .2rem;
 }
@@ -895,16 +911,11 @@ blockquote {
     display: inline-block;
 }
 
-.accordion-description::after {
+.accordion-description:after {
     content: "";
     height: .8rem;
     width: .8rem;
     display: inline-block;
-}
-
-.faq-accordion:hover {
-    background-color: ;
-
 }
 
 /* OLD STUFF */
