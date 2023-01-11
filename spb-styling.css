@@ -47,6 +47,14 @@ a {
     margin-top: 1.5rem;
 }
 
+@media screen and (max-width: 479px) {
+    .top-x-large { margin-top: 6rem; } 
+    .top-large { margin-top: 5rem; }
+    .top-medium { margin-top: 3rem; }
+    .top-normal { margin-top: 2.5rem; }
+}
+
+
 /* BUTTONS */
 
 .button-tertiary::before {
