@@ -304,6 +304,20 @@ blockquote {
     .three-cols-teasergroup-item { width: 100%; }
     .three-cols-teasergroup-list, .title-link-group { max-width: 19rem; }
     .benefits-teaser .three-cols-teasergroup-list { max-width: 100%;}
+
+    .title-link-group {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        grid-column-gap: 0.4rem;
+        grid-row-gap: 0.4rem;
+    }
 }
 
 
@@ -829,8 +843,21 @@ blockquote {
         width: 94%;
         max-width: 18rem;
     }
-    .swiper-nav-wrapper {
+    .swiper-nav-wrapper, .swiper-nav-bar {
         display: none;
+    }
+    .title-link-swiper-group {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        grid-column-gap: 0.4rem;
+        grid-row-gap: 0.4rem;
     }
 }
 
