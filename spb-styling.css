@@ -864,8 +864,7 @@ blockquote {
         -webkit-align-items: center;
         -ms-flex-align: center;
         align-items: center;
-        grid-column-gap: 0.4rem;
-        grid-row-gap: 0.4rem;
+        text-align: center;
     }
 }
 
