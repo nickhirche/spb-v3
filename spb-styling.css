@@ -924,8 +924,8 @@ blockquote {
     max-width: 34rem;
 }
 .faq-two-cols-wrapper .faq-list {
-    width: calc((90vw / 2) - (2rem / 2);
-    max-width: calc((60rem / 2) - (2rem / 2);
+    width: calc((90vw / 2) - (2rem / 2));
+    max-width: calc((60rem / 2) - (2rem / 2));
 }
 
 @media screen and (max-width: 959px) { 
