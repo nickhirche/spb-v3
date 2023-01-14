@@ -21,7 +21,7 @@ var swiper = new Swiper('.swiper-plays-slider', {
         prevEl: ".swiper-button-prev.plays",
     },
 });
-    var swiper = new Swiper('.swiper-story-slider', {
+var swiper = new Swiper('.swiper-story-slider', {
     // Default parameters
     slidesPerView: 1,
     spaceBetween: 0,
@@ -36,3 +36,26 @@ var swiper = new Swiper('.swiper-plays-slider', {
         disableOnInteraction: false,
     },
 });
+var swiper = new Swiper('.swiper-challenges-slider', {
+    // Default parameters
+    slidesPerView: 1,
+    spaceBetween: 0,
+    // Responsive breakpoints
+        breakpoints: {
+      // when window width is >= 480px
+      660: {
+        slidesPerView: 2,
+        spaceBetween: 0,
+      },
+      // when window width is >= 640px
+      960: {
+        slidesPerView: 3,
+        spaceBetween: 0,
+      },
+      },
+    // Navigation
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+  });
