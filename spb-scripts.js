@@ -59,3 +59,15 @@ var swiper = new Swiper('.swiper-challenges-slider', {
         prevEl: ".swiper-button-prev",
     },
   });
+
+  var swiper = new Swiper('.swiper-partner-slider', {
+    // Default parameters
+    loop: true,
+    simulateTouch:false,
+
+    speed:2000,
+
+    autoplay: {
+        delay: 0,
+    },
+  });

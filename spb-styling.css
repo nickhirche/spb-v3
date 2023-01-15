@@ -923,6 +923,10 @@ blockquote {
     opacity: 100%;
 }
 
+.swiper-partner-slider .swiper-wrapper {
+    transition-timing-function: linear
+}
+
 /* Accordion */
 .faq-list {
     max-width: 34rem;
