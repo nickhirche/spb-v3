@@ -1,4 +1,4 @@
-var swiper = new Swiper('.swiper-plays-slider', {
+var swiper = new Swiper('.swiper-slider .swiper-plays-slider', {
     // Default parameters
     slidesPerView: 1,
     spaceBetween: 0,
@@ -17,8 +17,8 @@ var swiper = new Swiper('.swiper-plays-slider', {
     },
     // Navigation
     navigation: {
-        nextEl: ".swiper-button-next.plays",
-        prevEl: ".swiper-button-prev.plays",
+        nextEl: ".swiper-slider .swiper-button-next.plays",
+        prevEl: ".swiper-slider .swiper-button-prev.plays",
     },
 });
 var swiper = new Swiper('.swiper-story-slider', {
