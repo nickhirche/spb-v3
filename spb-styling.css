@@ -924,7 +924,7 @@ blockquote {
 }
 
 .swiper-partner-slider .swiper-wrapper {
-    transition-timing-function: linear
+    transition-timing-function: linear !important;
 }
 
 /* Accordion */
