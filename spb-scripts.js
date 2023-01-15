@@ -70,8 +70,8 @@ var swiper = new Swiper('.swiper-challenges-slider', {
     longSwipes: false,
     allowTouchMove: false,
     autoplay: {
-    delay: 1, 
+        delay: 0, 
     }, 
     freeMode: true, 
-    speed: 5000,
+    speed: 7000,
   });
