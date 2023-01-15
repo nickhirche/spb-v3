@@ -73,5 +73,5 @@ var swiper = new Swiper('.swiper-challenges-slider', {
         delay: 0, 
     }, 
     freeMode: true, 
-    speed: 7000,
+    speed: 4000,
   });
