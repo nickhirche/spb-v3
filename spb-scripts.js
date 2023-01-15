@@ -62,16 +62,15 @@ var swiper = new Swiper('.swiper-challenges-slider', {
 
   var swiper = new Swiper('.swiper-partner-slider', {
     // Default parameters
-    grabCursor: false,
-    loop: true,
-    slidesPerView: 'auto',
-    loop: true, 
-    shortSwipes: false,
-    longSwipes: false,
-    allowTouchMove: false,
+    spaceBetween: 0,
+    centeredSlides: true,
+    speed: 3000,
     autoplay: {
-        delay: 0, 
-    }, 
-    freeMode: true, 
-    speed: 4000,
+      delay: 0,
+    },
+    loop: true,
+    loopedSlides: 4,
+    slidesPerView:'auto',
+    allowTouchMove: false,
+    disableOnInteraction: true,
   });
