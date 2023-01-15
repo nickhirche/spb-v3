@@ -64,7 +64,7 @@ var swiper = new Swiper('.swiper-challenges-slider', {
     // Default parameters
     spaceBetween: 0,
     centeredSlides: true,
-    speed: 3000,
+    speed: 4000,
     autoplay: {
       delay: 0,
     },
@@ -73,4 +73,11 @@ var swiper = new Swiper('.swiper-challenges-slider', {
     slidesPerView:'auto',
     allowTouchMove: false,
     disableOnInteraction: true,
+    // Responsive breakpoints
+    breakpoints: {
+        // when window width is >= 480px
+        660: {
+            speed: 3000,
+        },
+    },
   });
