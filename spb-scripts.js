@@ -41,8 +41,8 @@ var swiper = new Swiper('.swiper-slider .swiper-advanced-plays-slider', {
     },
     // Navigation
     navigation: {
-        nextEl: ".swiper-slider .swiper-button-next.plays-2",
-        prevEl: ".swiper-slider .swiper-button-prev.plays-2",
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
     },
 });
 
