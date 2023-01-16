@@ -108,24 +108,22 @@ var swiper = new Swiper('.swiper-challenges-slider', {
   });
 
 // Replace Play Card Facts
-<script>
-    var Webflow = Webflow || [];
-    Webflow.push(function() {
-        $('.swiper-plays-slider .facts-group').each(function (groupIndex, group) {
-            $(group).find('.facts-resort').each(function (resortIndex, resort) {
-                var unorderedListItems = $(resort).find('.unordered-list-item')
-                var checkListItems = $(resort).find('.check-list-item')
-    
-                var unorderedList = $(group).find('.fact-group .unordered-list');
-                var checkList = $(group).find('.fact-group .check-list');
-    
-                $(unorderedListItems).appendTo(unorderedList);
-                $(checkListItems).appendTo(checkList);
+var Webflow = Webflow || [];
+Webflow.push(function() {
+    $('.swiper-plays-slider .facts-group').each(function (groupIndex, group) {
+        $(group).find('.facts-resort').each(function (resortIndex, resort) {
+            var unorderedListItems = $(resort).find('.unordered-list-item')
+            var checkListItems = $(resort).find('.check-list-item')
 
-                if (resortIndex + 1 === $(group).find('.facts-resort').length) {
-                    $(group).find('.w-dyn-list').remove();
-                }
-            });
+            var unorderedList = $(group).find('.fact-group .unordered-list');
+            var checkList = $(group).find('.fact-group .check-list');
+
+            $(unorderedListItems).appendTo(unorderedList);
+            $(checkListItems).appendTo(checkList);
+
+            if (resortIndex + 1 === $(group).find('.facts-resort').length) {
+                $(group).find('.w-dyn-list').remove();
+            }
         });
     });
-</script>
+});
