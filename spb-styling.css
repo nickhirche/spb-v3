@@ -46,6 +46,9 @@ a {
 .top-x-small {
     margin-top: 1.5rem;
 }
+.top-xx-small {
+    margin-top: 1rem;
+}
 
 @media screen and (max-width: 479px) {
     .top-x-large { margin-top: 6rem; } 

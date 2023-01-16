@@ -21,6 +21,31 @@ var swiper = new Swiper('.swiper-slider .swiper-plays-slider', {
         prevEl: ".swiper-slider .swiper-button-prev.plays",
     },
 });
+
+var swiper = new Swiper('.swiper-slider .swiper-plays-slider.advanced', {
+    // Default parameters
+    slidesPerView: 1,
+    spaceBetween: 0,
+    // Responsive breakpoints
+    breakpoints: {
+        // when window width is >= 480px
+        600: {
+        slidesPerView: 2,
+        spaceBetween: 0,
+        },
+        // when window width is >= 640px
+        960: {
+        slidesPerView: 3,
+        spaceBetween: 0,
+        },
+    },
+    // Navigation
+    navigation: {
+        nextEl: ".swiper-slider .advanced .swiper-button-next.plays",
+        prevEl: ".swiper-slider .advanced .swiper-button-prev.plays",
+    },
+});
+
 var swiper = new Swiper('.swiper-story-slider', {
     // Default parameters
     slidesPerView: 1,
