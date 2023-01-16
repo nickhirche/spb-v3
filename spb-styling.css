@@ -1042,7 +1042,7 @@ a.teasercard-wrapper:hover .icon-button {
 }
 @media screen and (max-width: 479px) {
     .disturber.light-purple {
-        background-position: calc(100% + 15rem) 50%, 0px 0px;
+        background-position: calc(100% + 20rem) 50%, 0px 0px;
     }
 }
 
