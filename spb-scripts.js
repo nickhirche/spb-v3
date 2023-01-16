@@ -22,7 +22,7 @@ var swiper = new Swiper('.swiper-slider .swiper-plays-slider', {
     },
 });
 
-var swiper = new Swiper('.swiper-slider .swiper-plays-slider.advanced', {
+var swiper = new Swiper('.swiper-slider .swiper-advanced-plays-slider', {
     // Default parameters
     slidesPerView: 1,
     spaceBetween: 0,
