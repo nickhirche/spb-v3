@@ -1042,14 +1042,21 @@ a.teasercard-wrapper:hover .icon-button {
 }
 @media screen and (max-width: 479px) {
     .disturber.light-purple {
-        background-position: calc(100% + 20rem) 50%, 0px 0px;
+        background-position: calc(100% + 15rem) 50%, 0px 0px;
     }
 }
 
-.number-card {
+.number-card, .facts-card {
     -webkit-backdrop-filter: blur(1rem);
     backdrop-filter: blur(1rem);
 }
+
+.facts-card { 
+    width: calc(25% - (1.5rem / 4));
+}
+
+@media screen and (max-width: 767px) { .facts-card { width: calc(50% - (.5rem / 2)); }}
+@media screen and (max-width: 479px) { .facts-card { width: 100%; }}
 
 
 
