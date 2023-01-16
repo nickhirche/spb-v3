@@ -1035,10 +1035,23 @@ a.teasercard-wrapper:hover .icon-button {
     background-position: calc(100% + 10rem) 50%, 0px 0px;
 }
 
+@media screen and (max-width: 767px) {
+    .disturber.light-purple {
+        background-position: calc(100% + 12rem) 50%, 0px 0px;
+    }
+}
+@media screen and (max-width: 479px) {
+    .disturber.light-purple {
+        background-position: calc(100% + 15rem) 50%, 0px 0px;
+    }
+}
+
 .number-card {
     -webkit-backdrop-filter: blur(1rem);
     backdrop-filter: blur(1rem);
 }
+
+
 
 /* OLD STUFF */
 
