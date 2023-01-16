@@ -1029,6 +1029,17 @@ a.teasercard-wrapper:hover .icon-button {
 }
 
 
+/* Disturber */
+
+.disturber.light-purple {
+    background-position: calc(100% + 10rem) 50%, 0px 0px;
+}
+
+.number-card {
+    -webkit-backdrop-filter: blur(1rem);
+    backdrop-filter: blur(1rem);
+}
+
 /* OLD STUFF */
 
 .primary:disabled,
