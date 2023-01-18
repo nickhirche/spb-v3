@@ -111,7 +111,7 @@ var swiper = new Swiper('.swiper-challenges-slider', {
 var swiper = new Swiper('.swiper-piano-plays-slider', {
     // Default parameters
     spaceBetween: 0,
-    speed: 18000,
+    speed: 30000,
     autoplay: {
         delay: 0,
     },
