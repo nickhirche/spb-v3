@@ -107,6 +107,23 @@ var swiper = new Swiper('.swiper-challenges-slider', {
     },
   });
 
+// Piano Plays Slider Play Card Facts
+<script>
+  var swiper = new Swiper('.swiper-piano-plays-slider', {
+    // Default parameters
+    spaceBetween: 0,
+    speed: 18000,
+    autoplay: {
+      delay: 0,
+    },
+    loop: true,
+    loopedSlides: 6,
+    slidesPerView:'auto',
+    allowTouchMove: false,
+    disableOnInteraction: true,
+  });
+</script>
+
 // Replace Play Card Facts
 var Webflow = Webflow || [];
 Webflow.push(function() {
