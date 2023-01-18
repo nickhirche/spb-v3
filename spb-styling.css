@@ -446,6 +446,9 @@ blockquote {
 .post-teaser:hover .content-wrapper {
     background-color: rgba(239,233,251,.1);
 }
+.post-teaser:hover .content-wrapper.events {
+    background-color: unset;
+}
 
 .post-teaser:hover .icon-button {
     color: #EFE9FB;
