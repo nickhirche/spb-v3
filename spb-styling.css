@@ -57,6 +57,11 @@ a {
     .top-normal { margin-top: 2.5rem; }
 }
 
+/* Paragraphs */
+
+.label a { 
+    color: rgba(260, 7, 98, .6);
+}
 
 /* BUTTONS */
 
@@ -1085,6 +1090,10 @@ a.teasercard-wrapper:hover .icon-button {
 @media screen and (max-width: 767px) { .facts-card { width: calc(50% - (1rem / 2)); }}
 @media screen and (max-width: 479px) { .facts-card { width: 100%; }}
 
+/* Newsletter embeds */
+.newsletter-embed iframe {
+    min-height: unset!important;
+}
 
 
 /* OLD STUFF */
