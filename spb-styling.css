@@ -1095,6 +1095,11 @@ a.teasercard-wrapper:hover .icon-button {
     min-height: unset!important;
 }
 
+/* Footer */
+.copyright-block::before {
+    content: unset;
+}
+
 
 /* OLD STUFF */
 
