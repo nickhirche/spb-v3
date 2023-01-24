@@ -123,7 +123,6 @@ var swiper = new Swiper('.swiper-piano-plays-slider', {
 });
 
 // Replace Play Card Facts
-<script>
     var Webflow = Webflow || [];
     Webflow.push(function() {
         $('.swiper-plays-slider .facts-group').each(function (groupIndex, group) {
@@ -151,4 +150,5 @@ var swiper = new Swiper('.swiper-piano-plays-slider', {
         });
             
     });
-</script>
+
+
