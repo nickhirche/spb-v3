@@ -1122,6 +1122,10 @@ a.teasercard-wrapper:hover .icon-button {
     opacity: 1;
 } 
 
+.weglot-container.wg-default {
+    display: none;
+}
+
 /* How it works */
 .steps-line-wrapper::before {
     content: '';
