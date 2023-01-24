@@ -123,32 +123,32 @@ var swiper = new Swiper('.swiper-piano-plays-slider', {
 });
 
 // Replace Play Card Facts
-    var Webflow = Webflow || [];
-    Webflow.push(function() {
-        $('.swiper-plays-slider .facts-group').each(function (groupIndex, group) {
-            $(group).find('.facts-resort').each(function (resortIndex, resort) {
-                var unorderedListItems = $(resort).find('.unordered-list-item')
-                var checkListItems = $(resort).find('.check-list-item')
-    
-                var unorderedList = $(group).find('.fact-group .unordered-list');
-                var checkList = $(group).find('.fact-group .check-list');
-    
-                $(unorderedListItems).appendTo(unorderedList);
-                $(checkListItems).appendTo(checkList);
+var Webflow = Webflow || [];
+Webflow.push(function() {
+    $('.swiper-plays-slider .facts-group').each(function (groupIndex, group) {
+        $(group).find('.facts-resort').each(function (resortIndex, resort) {
+            var unorderedListItems = $(resort).find('.unordered-list-item')
+            var checkListItems = $(resort).find('.check-list-item')
 
-                if (resortIndex + 1 === $(group).find('.facts-resort').length) {
-                    $(group).find('.w-dyn-list').remove();
-                }
-            });
-        });
+            var unorderedList = $(group).find('.fact-group .unordered-list');
+            var checkList = $(group).find('.fact-group .check-list');
 
-        $('.swiper-plays-slider [data-replace-card="advanced"]').each(function (cardIndex, card) {
-            var parentSlide = $(card).closest('.swiper-slide');
-            var advancedSlides = $('.swiper-advanced-plays-slider [data-insert-card="advanced"]');
-            
-            $(advancedSlides).append(parentSlide);
+            $(unorderedListItems).appendTo(unorderedList);
+            $(checkListItems).appendTo(checkList);
+
+            if (resortIndex + 1 === $(group).find('.facts-resort').length) {
+                $(group).find('.w-dyn-list').remove();
+            }
         });
-            
     });
+
+    $('.swiper-plays-slider [data-replace-card="advanced"]').each(function (cardIndex, card) {
+        var parentSlide = $(card).closest('.swiper-slide');
+        var advancedSlides = $('.swiper-advanced-plays-slider [data-insert-card="advanced"]');
+        
+        $(advancedSlides).append(parentSlide);
+    });
+        
+});
 
 
